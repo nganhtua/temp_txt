@@ -7280,7 +7280,7 @@ footer .col_cx,
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-@media print {
+/*@media print {
   #top,
   nav,
   footer,
@@ -7293,8 +7293,8 @@ footer .col_cx,
   /*.revision-history-form-container,*/
   .full-screen-trigger,
   .page.publication .print-page-trigger,
-  .print-page-trigger, {
-  /*.pagination {*/
+  .print-page-trigger, 
+  .pagination {
     display: none;
   }
   .col_cx {
@@ -7314,7 +7314,7 @@ footer .col_cx,
     border-left: 3px solid #8b1c40;
     display: none;
   }
-}
+}*/
 @media only screen {
   .print-header {
     display: none;
