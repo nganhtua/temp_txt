@@ -7290,11 +7290,11 @@ footer .col_cx,
   .content-navigation,
   .search.widget,
   .item-list-sort,
-  .revision-history-form-container,
+  /*.revision-history-form-container,*/
   .full-screen-trigger,
   .page.publication .print-page-trigger,
-  .print-page-trigger,
-  .pagination {
+  .print-page-trigger, {
+  /*.pagination {*/
     display: none;
   }
   .col_cx {
