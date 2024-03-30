@@ -7235,14 +7235,17 @@ footer .col_cx,
   display: none !important;
 }
 .js.lt-ie9 .provenance-trail {
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
+  overflow-y: visible;
 }
 .js .provenance-trail {
-  opacity: 0;
-  height: 0;
+  /*opacity: 0;
+  height: 0;*/
+  opacity: 1;
 }
 .js .provenance-trail .guidance-box {
-  display: none;
+  /*display: none;*/
+  display: block;
 }
 .js .ui-dialog {
   display: none;
@@ -7280,7 +7283,7 @@ footer .col_cx,
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-/*@media print {
+@media print {
   #top,
   nav,
   footer,
@@ -7290,7 +7293,7 @@ footer .col_cx,
   .content-navigation,
   .search.widget,
   .item-list-sort,
-  /*.revision-history-form-container,*/
+  .revision-history-form-container,
   .full-screen-trigger,
   .page.publication .print-page-trigger,
   .print-page-trigger, 
@@ -7314,7 +7317,7 @@ footer .col_cx,
     border-left: 3px solid #8b1c40;
     display: none;
   }
-}*/
+}
 @media only screen {
   .print-header {
     display: none;
