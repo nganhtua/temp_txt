@@ -29377,14 +29377,14 @@ form textarea {
 }
 .js .js-provenance-trail-container {
   margin-bottom: 0;
-  display: none;
+  display: block;
 }
 .js .js-provenance-trail-container .provenance-trail-content {
   width: 100%;
   margin-bottom: 0;
 }
 .js .provenance-trail-content.collapsed {
-  display: none;
+  display: block;
 }
 
 .noJs .revision-history-form-container {
