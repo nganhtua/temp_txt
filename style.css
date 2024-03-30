@@ -29112,7 +29112,8 @@ form textarea {
   width: 100%;
 }
 #timelineData ol li .timeline-runner-extension {
-  display: none !important;
+  /*display: none !important;*/
+  display: block !important;
 }
 
 .page.publication .col_cx .revision-history-form {
