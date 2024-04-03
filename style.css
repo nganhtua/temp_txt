@@ -7232,11 +7232,11 @@ footer .col_cx,
 }
 
 .js .noJsElement {
-  display: none !important;
+  display: none;
 }
 .js.lt-ie9 .provenance-trail {
   /*overflow-y: hidden;*/
-  overflow-y: visible;
+  overflow-y: scroll;
 }
 .js .provenance-trail {
   /*opacity: 0;
@@ -14294,7 +14294,7 @@ form textarea {
 }
 
 #timelineData .point-in-time {
-  display: none;
+  display: block !important;
 }
 #timelineData .timeline-pin, #timelineData .timeline-pin-selected, #timelineData .timeline-pin-current, #timelineData .timeline-pin-discontinued {
   border-width: 8px;
@@ -28835,7 +28835,7 @@ form textarea {
 .provenance-trail h2 {
   text-align: center;
   margin: 0 0 10px 0;
-  display: none;
+  display: block !important;
 }
 .provenance-trail-header h2, .provenance-trail-header h3 {
   position: relative;
@@ -28967,7 +28967,7 @@ form textarea {
   margin-bottom: 15px;
 }
 .provenance-trail-top > div {
-  display: none;
+  display: block;
   font-family: "Arial Bold", "Arial", sans-serif;
   font-weight: 700;
 }
@@ -29010,7 +29010,7 @@ form textarea {
   pointer-events: none;
 }
 .provenance-trail-selector {
-  display: none;
+  display: block;
 }
 .provenance-trail-selector-filter {
   padding: 45px 15px 15px 15px;
@@ -29029,7 +29029,7 @@ form textarea {
 .provenance-trail-selector-filter > div.provenance-datepicker {
   position: absolute;
   z-index: 10;
-  display: none;
+  display: block;
 }
 .provenance-trail-selector-filter > div label {
   position: absolute;
